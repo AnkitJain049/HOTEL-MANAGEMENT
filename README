@@ -1,0 +1,54 @@
+Project Title: Hotel Management System using Tkinter, MySQL, and Python
+
+Description:
+This project is a GUI-based hotel management system designed to handle various aspects of hotel operations, such as customer data entry, extra service requests, and cost calculation.
+The system utilizes the Tkinter library for creating a user-friendly graphical interface.
+It incorporates a MySQL database for storing and managing customer data, room details, and service records.
+Features:
+
+Customer Data Entry:
+Allows users to input their personal information, such as name, phone number, check-in/out dates, and room preference.
+Validates user input for correct format and data integrity.
+Extra Services:
+
+Provides options for customers to request additional services, including an extra bed, restaurant bills, game center expenses, and laundry service.
+Calculates and updates the total bill based on selected services.
+Total Cost Calculation:
+
+Computes the total bill for each customer, including room rent, extra services, and applicable taxes (18% GST).
+Displays a breakdown of individual costs, tax, and the final payable amount.
+Database Integration:
+
+Utilizes a MySQL database to store and manage customer information, room records, and service expenses.
+Employs SQL queries to retrieve, update, and insert data into the database.
+Technology Stack:
+
+Programming Language: Python
+GUI Library: Tkinter
+Database: MySQL
+Project Flow:
+
+The main window offers options to enter customer data, request extra services, and calculate the total cost.
+Each functionality is linked to a specific window with input fields, checkboxes, and buttons.
+The data entered by the user is validated before being processed and stored in the database.
+Contributions:
+
+Created a graphical user interface (GUI) using Tkinter, facilitating user-friendly interactions.
+Designed the MySQL database schema to store customer information, room details, and service records.
+Implemented data validation to ensure accurate and consistent input.
+Incorporated SQL queries for database operations such as insertion, retrieval, and updating records.
+Outcome:
+
+The hotel management system streamlines and automates various tasks, enhancing efficiency and customer experience.
+Provides users with a simple and intuitive way to input their data, select services, and obtain cost estimates.
+Demonstrates proficiency in GUI development, database integration, and Python programming.
+Learning Experience:
+
+Acquired skills in GUI development using Tkinter and interfacing it with a MySQL database.
+Gained experience in handling user input, data validation, and implementing database operations.
+Enhanced problem-solving abilities by addressing various aspects of hotel management through code.
+Future Enhancements:
+
+Implement user authentication and access control for enhanced security.
+Develop reporting and analytics features for monitoring hotel operations.
+Extend the project to include more advanced features such as online booking and payment processing.
